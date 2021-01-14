@@ -1,0 +1,76 @@
+body {
+    padding:50px;
+    background-color:orange;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./images/notebook-336634_1920.jpg);
+
+}
+#container {
+    display:flex;
+    justify-content: center;
+}
+.header{
+    background-color: rgb(155, 41, 41);
+    padding:20px;
+    border:0px solid black;
+    box-shadow: 5px 10px 8px rgba(85, 84, 84, 0.623);
+}
+.heading{
+    color:red ;
+    font-family: 'Sacramento', cursive;
+    padding:10px;
+    text-align: center;
+    margin: 0;
+}
+
+.litems {
+    padding:10px;
+    list-style-type: none;
+}
+#Items{
+    border: 0px solid black;
+    border-radius: 0px;
+    box-shadow: 5px 10px 8px rgba(85, 84, 84, 0.623);
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    white-space: pre-wrap;
+}
+
+.addbtn {
+    background-color: lightgoldenrodyellow;
+    color:green;
+    margin:2px;
+}
+
+.frm{
+     text-align: center;
+}
+
+textarea {
+    outline: none;
+    color:red;
+    border:1px solid black;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    background-color:rgb(155, 41, 41);
+   
+}
+::placeholder{
+    color:black;
+}
+
+#trashCan{
+color:red;
+float: right;
+}
+
+#attr{
+    text-align:center;
+    font-size: 8px;
+    color:black;
+}
+#checkbtn{
+    color:white;
+}
